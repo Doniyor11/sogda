@@ -1,4 +1,11 @@
-import { AboutSection, ContactForm, ContactInfo, MainSection, ManagementTeam, Partners } from "@/futures"
+import {
+	AboutSection,
+	ContactForm,
+	ContactInfo,
+	MainSection,
+	ManagementTeam,
+	Partners,
+} from "@/futures"
 import { Flex } from "@mantine/core"
 import { useMediaQuery } from "@mantine/hooks"
 import cx from "clsx"
@@ -36,12 +43,11 @@ const HomePage = () => {
 
 				<div id={"section4"} className={cx(s.map, "container")}>
 					<iframe
-						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.1959622354984!2d69.31764151202475!3d41.326351971188046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b5db61c9d6b%3A0x2a8697df753f4f1b!2z0J7QntCeIMKrU21hcnQgU29mdCBEZXZlbG9wbWVudMK7!5e0!3m2!1sru!2s!4v1728418098491!5m2!1sru!2s"
-						style={{ border: 0 }}
-						allowFullScreen
-						loading={"lazy"}
-						referrerPolicy={"no-referrer-when-downgrade"}
-					/>
+						src="https://yandex.ru/map-widget/v1/?um=constructor%3A4299f47342194d25a47eaca19c02e6ee37349296ae11f81d2af71a35dc17b34c&amp;source=constructor"
+						width="100%"
+						height="400"
+						frameBorder="0"
+					></iframe>
 				</div>
 			</main>
 		</>

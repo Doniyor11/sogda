@@ -10,6 +10,7 @@ import ImageSmall3 from "@//shared/assets/images/user-small3.png"
 import ImageSmall4 from "@//shared/assets/images/user-small4.png"
 import { Box, Flex, Tabs, Text } from "@mantine/core"
 import { useMediaQuery } from "@mantine/hooks"
+import cx from "clsx"
 import Image from "next/image"
 import React from "react"
 
@@ -45,7 +46,7 @@ const userSmallImages = [
 export const ManagementTeam = () => {
 	const matches = useMediaQuery("(max-width: 992px)")
 	return (
-		<div className={s.management}>
+		<div className={cx(s.management, "container")}>
 			<Text component={"p"} className={s.managementTitle}>
 				Управленческая команда
 			</Text>
@@ -71,7 +72,11 @@ export const ManagementTeam = () => {
 							/>
 						</Box>
 						<Box className={s.managementUserInfo}>
-							<Flex direction={"column"} gap={matches ? "30px" : "50px"} mb={matches ? "30px" : "50px"}>
+							<Flex
+								direction={"column"}
+								gap={matches ? "30px" : "50px"}
+								mb={matches ? "30px" : "50px"}
+							>
 								<Box>
 									<Text component={"p"} className={s.managementUserInfo}>
 										Директор
@@ -141,7 +146,11 @@ export const ManagementTeam = () => {
 							/>
 						</Box>
 						<Box className={s.managementUserInfo}>
-							<Flex direction={"column"} gap={matches ? "30px" : "50px"} mb={matches ? "30px" : "50px"}>
+							<Flex
+								direction={"column"}
+								gap={matches ? "30px" : "50px"}
+								mb={matches ? "30px" : "50px"}
+							>
 								<Box>
 									<Text component={"p"} className={s.managementUserInfo}>
 										Заместитель директора, маркетинг менеджер
@@ -206,8 +215,12 @@ export const ManagementTeam = () => {
 								height={540}
 							/>
 						</Box>
-						<Box  className={s.managementUserInfo}>
-							<Flex direction={"column"} gap={matches ? "30px" : "50px"} mb={matches ? "30px" : "50px"}>
+						<Box className={s.managementUserInfo}>
+							<Flex
+								direction={"column"}
+								gap={matches ? "30px" : "50px"}
+								mb={matches ? "30px" : "50px"}
+							>
 								<Box>
 									<Text component={"p"} className={s.managementUserInfo}>
 										Представитель компании в странах ЕС
@@ -275,7 +288,7 @@ export const ManagementTeam = () => {
 								height={540}
 							/>
 						</Box>
-						<Box  className={s.managementUserInfo}>
+						<Box className={s.managementUserInfo}>
 							<Flex
 								direction={"column"}
 								gap={matches ? "30px" : "50px"}
