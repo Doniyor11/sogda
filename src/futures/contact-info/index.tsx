@@ -9,49 +9,71 @@ import { SectionLabel } from "@/shared/ui/section-label"
 
 import s from "./styles.module.scss"
 
-export const ContactInfo = () => {
+interface IContactInfoProps {
+	title: string
+	sectionLabel: string
+	addressLabel: string
+	address: string
+	phoneLabel: string
+	phone: string
+	emailLabel: string
+	email: string
+	phoneCall: string
+	emailWrite: string
+}
+
+export const ContactInfo: React.FC<IContactInfoProps> = ({
+	title,
+	sectionLabel,
+	addressLabel,
+	address,
+	phoneLabel,
+	phone,
+	emailLabel,
+	email,
+	phoneCall,
+	emailWrite,
+}) => {
 	const matches = useMediaQuery("(max-width: 992px)")
 
 	return (
 		<div className={s.wrapper}>
-			<SectionLabel text={"Свяжитесь с нами"} />
+			<SectionLabel text={sectionLabel} />
 			<div className={s.box}>
-				<Text className={s.title}>Контакты</Text>
+				<Text className={s.title}>{title}</Text>
 				<div className={s.boxItem}>
 					<IconOne />
 					<Box>
-						<Text className={s.label}>Адрес:</Text>
-						<Text className={s.text}>
-							Республика Узбекистан, г. Самарканд, <br /> ул. М. Хайдарова 29
-						</Text>
+						<Text className={s.label}>{addressLabel}</Text>
+						<Text className={s.text}>{address}</Text>
 					</Box>
 				</div>
 				<div className={s.boxItem}>
 					<IconTwo />
 					<Box>
-						<Text className={s.label}>Телефон:</Text>
-						<Anchor href={"tel:+998981706000"} className={s.text}>
-							+998 (98) 170 - 60 - 00
+						<Text className={s.label}>{phoneLabel}</Text>
+						<Anchor href={`tel:${phone}`} className={s.text}>
+							{phone}
 						</Anchor>
 					</Box>
 				</div>
 				<div className={s.boxItem}>
 					<IconThree />
 					<Box>
-						<Text className={s.label}>Телефон:</Text>
-						<Anchor href={"mailto:info@sogda-united.uz"} className={s.text}>
-							info@sogda-united.uz
+						<Text className={s.label}>{emailLabel}</Text>
+						<Anchor href={`mailto:${email}`} className={s.text}>
+							{email}
 						</Anchor>
 					</Box>
 				</div>
 				<Flex gap={20} mt={24} direction={matches ? "column" : "row"}>
-					<Anchor href={"tel:+998981706000"} className={s.btn}>
+					<Anchor href={`tel:${phone}`} className={s.btn}>
 						<IconTwo />
-						Позвонить в компанию
+						{phoneCall}
 					</Anchor>
-					<Anchor href={"mailto:info@sogda-united.uz"} className={s.btn}>
+					<Anchor href={`mailto:${email}`} className={s.btn}>
 						<IconThree />
-						Написать на почту
+						{emailWrite}
 					</Anchor>
 				</Flex>
 			</div>

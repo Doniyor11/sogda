@@ -1,5 +1,5 @@
 import { Button, Input, Text } from "@mantine/core"
-import React, { useState } from "react"
+import React, { FC, useState } from "react"
 import { IMaskInput } from "react-imask"
 import { toast } from "react-toastify"
 
@@ -8,7 +8,29 @@ import { SectionLabel } from "@/shared/ui/section-label"
 
 import s from "./styles.module.scss"
 
-export const ContactForm = () => {
+interface IContactFormProps {
+	sectionLabel: string
+	title: string
+	name: string
+	namePlaceholder: string
+	phone: string
+	phonePlaceholder: string
+	emailInput: string
+	emailPlaceholder: string
+	button: string
+}
+
+export const ContactForm: FC<IContactFormProps> = ({
+	sectionLabel,
+	title,
+	name,
+	namePlaceholder,
+	phone,
+	phonePlaceholder,
+	emailInput,
+	emailPlaceholder,
+	button,
+}) => {
 	const [fullName, setFullName] = useState("")
 	const [phoneNumber, setPhoneNumber] = useState("+998")
 	const [email, setEmail] = useState("")
@@ -36,30 +58,30 @@ export const ContactForm = () => {
 
 	return (
 		<div className={s.wrapper}>
-			<SectionLabel text={"Или оставьте свой номер"} />
+			<SectionLabel text={sectionLabel} />
 			<div className={s.box}>
-				<Text className={s.title}>Оставить заявку</Text>
+				<Text className={s.title}>{title}</Text>
 
 				<form onSubmit={handleSubmit}>
-					<Input.Wrapper className={s.inputWrapper} label={"Имя:"}>
+					<Input.Wrapper className={s.inputWrapper} label={name}>
 						<Input
-							placeholder={"Виктор"}
+							placeholder={namePlaceholder}
 							value={fullName}
 							onChange={(e: any) => setFullName(e.currentTarget.value)}
 						/>
 					</Input.Wrapper>
-					<Input.Wrapper className={s.inputWrapper} label={"Телефон:"}>
+					<Input.Wrapper className={s.inputWrapper} label={phone}>
 						<Input
-							placeholder={"Телефон"}
+							placeholder={phonePlaceholder}
 							component={IMaskInput as any}
 							mask="+998 (00) 000-00-00"
 							value={phoneNumber}
 							onChange={(e: any) => setPhoneNumber(e.currentTarget.value)}
 						/>
 					</Input.Wrapper>
-					<Input.Wrapper className={s.inputWrapper} label={"Почта:"}>
+					<Input.Wrapper className={s.inputWrapper} label={emailInput}>
 						<Input
-							placeholder={"mail@yandex.ru"}
+							placeholder={emailPlaceholder}
 							value={email}
 							onChange={(e: any) => setEmail(e.currentTarget.value)}
 							type={"email"}
@@ -72,7 +94,7 @@ export const ContactForm = () => {
 						loading={loading}
 						type={"submit"}
 					>
-						Отправить
+						{button}
 					</Button>
 				</form>
 			</div>

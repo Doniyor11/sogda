@@ -6,15 +6,19 @@ import Image5 from "@//shared/assets/images/partner-5.png"
 import { Box, Text } from "@mantine/core"
 import cx from "clsx"
 import Image from "next/image"
-import React from "react"
+import React, { FC } from "react"
+
+interface IPartnersProps {
+	pageTitle?: string
+}
 
 import s from "./styles.module.scss"
 
-export const Partners = () => {
+export const Partners:FC<IPartnersProps> = ({pageTitle = "Партнеры"}) => {
 	return (
 		<div className={cx(s.partners, "container")}>
 			<Text component={"p"} className={s.partnersTitle}>
-				Партнеры
+				{pageTitle}
 			</Text>
 			<Box className={s.partnersImg}>
 				<Box
