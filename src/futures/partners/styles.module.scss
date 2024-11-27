@@ -1,0 +1,37 @@
+.partners {
+  width: 100%;
+  max-width: 1920px;
+  padding: 70px 100px 0;
+  @media screen and (max-width: 992px) {
+    padding: 32px 16px 0;
+  }
+  @media screen and (max-width: 576px) {
+    max-width: 100%;
+  }
+}
+
+.partnersTitle {
+  color: rgb(44, 89, 163);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 150%;
+  text-align: center;
+  margin-bottom: 21px;
+}
+
+.partnersImg {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 10px;
+  @media screen and (max-width: 1040px) {
+    flex-direction: column;
+  }
+}
+
+.partnersImgItem {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

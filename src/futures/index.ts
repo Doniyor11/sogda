@@ -1,0 +1,6 @@
+export { MainSection } from "./mian-section"
+export { AboutSection } from "./about-section"
+export { ContactInfo } from "./contact-info"
+export { ContactForm } from "./contact-form"
+export { Partners } from "./partners"
+export { ManagementTeam } from "./management-team"

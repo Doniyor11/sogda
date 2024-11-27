@@ -1,0 +1,108 @@
+.wrapper {
+	width: 100%;
+
+	.box {
+		margin-top: 20px;
+		border-radius: 30px;
+		width: 100%;
+		box-shadow:
+			0 2px 6px 2px rgba(0, 0, 0, 0.15),
+			0 1px 2px 0 rgba(0, 0, 0, 0.3);
+		background: #fff linear-gradient(0deg, #47b6d7 0%, #2c59a3 86.5%);
+		padding: 40px;
+
+		.title {
+			font-weight: 600;
+			font-size: 36px;
+			line-height: 36px;
+			color: #ffffff;
+		}
+
+		.inputWrapper {
+			border-bottom: 2px solid #fff;
+			border-radius: 20px;
+			width: 100%;
+			padding: 0;
+			overflow: hidden;
+			margin-top: 19px;
+
+			label {
+				padding-left: 32px;
+				margin: 0;
+				font-weight: 400;
+				font-size: 20px;
+				line-height: 20px;
+				color: rgba(255, 255, 255, 0.6);
+			}
+
+			input {
+				background: none;
+				border: none;
+				height: 41px;
+
+				font-weight: 600;
+				font-size: 24px;
+				line-height: 170%;
+				color: #ffffff;
+				padding-left: 32px;
+
+				&::placeholder {
+					color: rgba(255, 255, 255, 0.3);
+				}
+			}
+		}
+
+		.btn {
+			margin-top: 50px;
+			border-radius: 30px;
+			padding: 10px 32px;
+			width: fit-content;
+			height: 56px;
+			background: #ffffff;
+
+			font-weight: 500;
+			font-size: 20px;
+			color: #2c59a3;
+
+			svg {
+				width: 32px;
+				height: 32px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.wrapper {
+		.box {
+			margin-top: 16px;
+			border-radius: 20px;
+			padding: 16px;
+
+			.title {
+				font-size: 24px;
+				line-height: 28px;
+			}
+
+			.inputWrapper {
+				label {
+					padding-left: 16px;
+					font-size: 18px;
+					line-height: 18px;
+				}
+
+				input {
+					height: 38px;
+					font-size: 20px;
+					line-height: 20px;
+					padding-left: 16px;
+				}
+			}
+
+			.btn {
+				margin-top: 32px;
+				width: 100%;
+			}
+		}
+	}
+}

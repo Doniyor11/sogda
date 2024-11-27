@@ -1,0 +1,54 @@
+.footer {
+	width: 100%;
+	box-shadow:
+		0 -2px 6px 2px rgba(0, 0, 0, 0.15),
+		0 -1px 2px 0 rgba(0, 0, 0, 0.3);
+	background: #fff;
+	padding: 40px 0;
+
+	.container {
+		ul {
+			li,
+			a {
+				font-weight: 500;
+				font-size: 20px;
+				color: #2c59a3;
+				display: flex;
+				align-items: center;
+				column-gap: 16px;
+				margin-top: 20px;
+				cursor: pointer;
+
+				&:first-child {
+					margin-top: 0;
+				}
+
+				svg {
+					width: 24px;
+					height: 24px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.footer {
+		padding: 24px 0;
+
+		.container {
+			.logo {
+				width: fit-content;
+				height: 50px;
+			}
+			ul {
+				li,
+				a {
+					font-size: 16px;
+					column-gap: 8px;
+					margin-top: 8px;
+				}
+			}
+		}
+	}
+}
