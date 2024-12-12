@@ -93,8 +93,7 @@ export const ManagementTeam = () => {
 										Образование
 									</Text>
 									<Text component={"h3"} className={s.managementUserTitle}>
-										В 2012 году окончил Самаркандский институт экономики и
-										сервиса
+										В 2012 году окончил Самаркандский институт  экономики и сервиса
 									</Text>
 								</Box>
 								<Box>
@@ -226,7 +225,7 @@ export const ManagementTeam = () => {
 										Представитель компании в странах ЕС
 									</Text>
 									<Text component={"h3"} className={s.managementUserTitle}>
-										Саддулаев Озод Шаркинович
+										Ахмеджанов Рахим Абдунабиевич
 									</Text>
 								</Box>
 								<Box>

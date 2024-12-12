@@ -31,7 +31,7 @@ const HomePage = () => {
 						{ label: "Jamoa", section: 2 },
 						{ label: "Kontaktlar", section: 3 },
 						{
-							label: "Biz xaritadamiz",
+							label: "Xaritadagi manzil",
 							section: 4,
 						},
 					]}
@@ -52,7 +52,7 @@ const HomePage = () => {
 						sectionLabel="Biz bilan bog'laning"
 						title="Kontaktlar"
 						addressLabel={"Manzil:"}
-						address="O‘zbekiston Respublikasi, Samarqand shahri, M. Haydarov ko‘chasi, 29-uy"
+						address="O'zbekiston Respublikasi, Samarqand sh., M. Haydarova ko`chasi 29 uy"
 						phoneLabel={"Telefon:"}
 						phone="+998981706000"
 						emailLabel={"Pochta:"}
@@ -83,9 +83,9 @@ const HomePage = () => {
 				</div>
 				<Footer
 					aboutText="Biz haqimizda"
-					employeesText="Xodimlar"
-					contactsText="Kontaktlar"
-					mapText="Biz xaritadamiz"
+					employeesText="Jamoa"
+					contactsText="Kontakt"
+					mapText="Xaritadagi manzil"
 					addressText="Samarqand shahri, O'zbekiston Respublikasi"
 					phoneNumber="+998981706000"
 					phoneLabel="+998 (98) 170 - 60 - 00"

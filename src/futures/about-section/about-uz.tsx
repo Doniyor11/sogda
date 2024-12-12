@@ -19,22 +19,20 @@ export const AboutSectionUz = () => {
 			<Text className={s.title}>
 				ООО «SOGDA UNITED TRADE»
 				<span>
-					Biz har doim yangi takliflarga ochiqmiz, o'zaro manfaatli sheriklikka
-					intilamiz.
+					Biz har doim yangi takliflarga ochiqmiz, o'zaro manfaatli hamkorlik
+					uchun intilamiz.
 				</span>
 			</Text>
 			<Flex direction={matches ? "column" : "row"} gap={matches ? 16 : 20}>
 				<Text className={s.text}>
-					Biz bozorda 2017 yildan beri sifatli tibbiy mahsulotlar, tibbiy
-					mahsulotlar va parafarmatsevtika mahsulotlarini taklif qilib
-					kelmoqdamiz. Shuningdek, biz sut mahsulotlarini ishlab chiqarish uchun
-					xom ashyoning alohida tarkibiy qismlarini ulgurji sotish bilan
-					shug'ullanamiz.
+					Biz bozorda 2017 yildan faoliyat yuritamiz, yuqori sifatli tibbiy
+					buyumlar va parafarmatsevtika mahsulotlarini taklif qilmoqdamiz.
+					Shuningdek, biz sut mahsulotlari ishlab chiqarish uchun xom ashyoning
+					alohida komponentlarini yetkazib beramiz.
 				</Text>
 				<Text className={s.text}>
-					Kompaniyamiz o'zbekistonlik hamkorlar bilan faol hamkorlik qilmoqda va
-					qo'shni davlatlar, zamonaviy biznes usullariga tayanib. Bizning
-					ishimiz quyidagi printsiplarga asoslanadi:
+					Kompaniyamiz zamonaviy biznes usullariga tayangan holda O‘zbekiston va chet davlatlardagi hamkorlar bilan faol hamkorlik qiladi. Bizning ishimiz quyidagi printsiplarga asoslanadi:
+
 				</Text>
 			</Flex>
 
@@ -42,13 +40,14 @@ export const AboutSectionUz = () => {
 				<div className={s.card}>
 					<IconOne />
 					<Text>
-						Chuqur bozor tadqiqotlariga asoslangan optimal strategiya.
+						Bozorni chuqur marketing  o'rganishga asoslangan optimal strategiya.
 					</Text>
 				</div>
 				<div className={s.card}>
 					<IconTwo />
 					<Text>
-						Qulay va uzoq muddatli hamkorlikni yaratish uchun har bir sherikga individual yondashuv.
+						Qulay va uzoq muddatli hamkorlikni yaratish uchun har bir hamkorga individual yondashuv.
+
 					</Text>
 				</div>
 				<div className={s.card}>

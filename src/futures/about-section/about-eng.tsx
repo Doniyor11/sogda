@@ -19,41 +19,40 @@ export const AboutSectionEng = () => {
 			<Text className={s.title}>
 				ООО «SOGDA UNITED TRADE»
 				<span>
-					We are always open to new suggestions, striving for a mutually
-					beneficial partnership.
+					We are always open to new proposals, striving for mutually beneficial
+					partnerships.
 				</span>
 			</Text>
 			<Flex direction={matches ? "column" : "row"} gap={matches ? 16 : 20}>
 				<Text className={s.text}>
-					We have been in the market since 2017, offering quality medical
-					devices, healthcare products and parapharmaceutical products. We are
-					also engaged in the wholesale distribution of certain components of
-					raw materials for the production of dairy products.
+					We have been operating in the market since 2017, offering high-quality
+					medical products, healthcare goods, and parapharmaceutical products.
+					We also engage in the wholesale supply of specific raw material
+					components for dairy production.
 				</Text>
 				<Text className={s.text}>
 					Our company actively cooperates with partners from Uzbekistan and
-					neighboring countries, relying on modern methods of doing business.
-					Our work is based on the following principles:
+					neighboring countries, relying on modern business methods. Our work is
+					based on the following principles:
 				</Text>
 			</Flex>
 
 			<div id={"section2"} className={s.cards}>
 				<div className={s.card}>
 					<IconOne />
-					<Text>
-						Optimal strategy based on in-depth market research.
-					</Text>
+					<Text>An optimal strategy based on in-depth market research.</Text>
 				</div>
 				<div className={s.card}>
 					<IconTwo />
 					<Text>
-						Individual approach to each partner to create comfortable and long-term cooperation.
+						An individualized approach to each partner to foster comfortable and long-term cooperation.
 					</Text>
 				</div>
 				<div className={s.card}>
 					<IconThree />
 					<Text>
-						Introduction of new products and advanced management schemes.
+						Introduction of new products and advanced management systems.
+
 					</Text>
 				</div>
 			</div>

@@ -82,7 +82,7 @@ export const ManagementTeamEng = () => {
 										Director
 									</Text>
 									<Text component={"h3"} className={s.managementUserTitle}>
-										Saddulaev Ozod
+										Saddulayev Ozod Sharkinovich
 									</Text>
 									<Text component={"p"} className={s.managementUserInfo}>
 										Founder and sole founder of the company
@@ -93,7 +93,7 @@ export const ManagementTeamEng = () => {
 										Education
 									</Text>
 									<Text component={"h3"} className={s.managementUserTitle}>
-										Graduated from Samarkand Institute of Economics and Service in 2012
+										Graduated from the Samarkand Institute of Economics and Service in 2012
 									</Text>
 								</Box>
 								<Box>
@@ -155,7 +155,7 @@ export const ManagementTeamEng = () => {
 										Deputy Director, Marketing Manager
 									</Text>
 									<Text component={"h3"} className={s.managementUserTitle}>
-										Turdiyev Farhod
+										Turdiev Farkhod Normurodovich
 									</Text>
 								</Box>
 								<Box>
@@ -163,7 +163,7 @@ export const ManagementTeamEng = () => {
 										Education
 									</Text>
 									<Text component={"h3"} className={s.managementUserTitle}>
-										Graduated from SamSAR in 2008
+										Graduated from Samarkand Agricultural Institute in 2008
 									</Text>
 								</Box>
 								<Box>
@@ -225,7 +225,7 @@ export const ManagementTeamEng = () => {
 										Company representative in EU countries
 									</Text>
 									<Text component={"h3"} className={s.managementUserTitle}>
-										Saddulaev Ozod
+										Axmedjanov Raxim Abdunabiyevich
 									</Text>
 								</Box>
 								<Box>
@@ -233,10 +233,10 @@ export const ManagementTeamEng = () => {
 										Education
 									</Text>
 									<Text component={"h3"} className={s.managementUserTitle}>
-										In 2002, he graduated from a vocational college and
+										Graduated from a vocational college in 2002
 									</Text>
 									<Text component={"h3"} className={s.managementUserTitle}>
-										in 2006 graduated from Yamasa Okazaki Institute, Japan
+										Graduated from Yamasa Institute, Okazaki, Japan  in 2006
 									</Text>
 								</Box>
 								<Box>
@@ -298,7 +298,7 @@ export const ManagementTeamEng = () => {
 										Accountant
 									</Text>
 									<Text component={"h3"} className={s.managementUserTitle}>
-										Ibragimov Dilshoda
+										Ibragimova Dilshoda Ismailovna
 									</Text>
 								</Box>
 								<Box>
@@ -306,8 +306,7 @@ export const ManagementTeamEng = () => {
 										Education
 									</Text>
 									<Text component={"h3"} className={s.managementUserTitle}>
-										In 2003, she graduated from the Business School at
-										Samarkand Institute of Economics and Service
+										Graduated from the Business School at the Samarkand Institute of Economics and Service in 2003
 									</Text>
 								</Box>
 								<Box>

@@ -93,8 +93,7 @@ export const ManagementTeamUz = () => {
 										Ta'lim
 									</Text>
 									<Text component={"h3"} className={s.managementUserTitle}>
-										2012 yilda Samarqand institutini tamomlagan
-										iqtisodiyot va xizmat
+										2012 yilda Samarqand iqtisodiyot va servis institutini tamomlagan
 									</Text>
 								</Box>
 								<Box>
@@ -106,7 +105,7 @@ export const ManagementTeamUz = () => {
 									</Text>
 								</Box>
 								<Text component={"h3"} className={s.managementUserTitle}>
-									Tadbirkorlik faoliyatida 19 yillik ish tajribasi
+									Tadbirkorlik tizimida tajriba: 19 yil
 								</Text>
 							</Flex>
 							<Flex
@@ -153,10 +152,10 @@ export const ManagementTeamUz = () => {
 							>
 								<Box>
 									<Text component={"p"} className={s.managementUserInfo}>
-										Direktor o'rinbosari, marketing menejeri
+										Direktor o'rinbosari, marketing bo'yicha menejer
 									</Text>
 									<Text component={"h3"} className={s.managementUserTitle}>
-										TURDIYEV FARXOD NORMURODOVICH
+										Turdiyev Farxod Normurodovich
 									</Text>
 								</Box>
 								<Box>
@@ -164,7 +163,7 @@ export const ManagementTeamUz = () => {
 										Ta'lim
 									</Text>
 									<Text component={"h3"} className={s.managementUserTitle}>
-										2008 yilda Samshini tamomlagan
+										2008 yilda SamQXI tamomlagan
 									</Text>
 								</Box>
 								<Box>
@@ -226,7 +225,7 @@ export const ManagementTeamUz = () => {
 										Kompaniyaning Evropa Ittifoqi mamlakatlaridagi vakili
 									</Text>
 									<Text component={"h3"} className={s.managementUserTitle}>
-										AXMEDJANOV RAXIM ABDUNABIYEVICH
+										Axmedjanov Raxim Abdunabiyevich
 									</Text>
 								</Box>
 								<Box>
@@ -234,12 +233,10 @@ export const ManagementTeamUz = () => {
 										Ta'lim
 									</Text>
 									<Text component={"h3"} className={s.managementUserTitle}>
-										2002 yilda professional maktabni tugatdi
-										kollej va
+										2002-yilda kasb-hunar kollejini tamomlagan va
 									</Text>
 									<Text component={"h3"} className={s.managementUserTitle}>
-										2006 yilda institutni tamomlagan
-										Yamasa Okazaki, Yaponiya
+										2006 yilda Yaponiyaning Yamasa Okazaki institutini tamomlagan
 									</Text>
 								</Box>
 								<Box>
@@ -301,7 +298,7 @@ export const ManagementTeamUz = () => {
 										Buxgalter
 									</Text>
 									<Text component={"h3"} className={s.managementUserTitle}>
-										IBRAGIMOVA DILSHODA ISMAILOVNA
+										Ibragimova Dilshoda Ismailovna
 									</Text>
 								</Box>
 								<Box>
@@ -309,9 +306,7 @@ export const ManagementTeamUz = () => {
 										Ta'lim
 									</Text>
 									<Text component={"h3"} className={s.managementUserTitle}>
-										2003 yilda biznes maktabini tamomlagan
-										Samarqand iqtisodiyot instituti va
-										xizmat
+										2003 yilda Samarqand iqtisodiyot va servis instituti qoshidagi Biznes maktabini tamomlagan
 									</Text>
 								</Box>
 								<Box>

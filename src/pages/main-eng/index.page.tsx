@@ -37,7 +37,7 @@ in Uzbekistan and neighboring countries."
 						{ label: "Team", section: 2 },
 						{ label: "Contacts", section: 3 },
 						{
-							label: "We're on the map",
+							label: "Find Us Here",
 							section: 4,
 						},
 					]}
@@ -59,7 +59,7 @@ in Uzbekistan and neighboring countries."
 						title="Contacts"
 						addressLabel={"Address:"}
 						address="Republic of Uzbekistan, Samarkand, M. Haydarov str. 29"
-						phoneLabel={"Phone:"}
+						phoneLabel={"Phone number:"}
 						phone="+998981706000"
 						emailLabel={"Email:"}
 						email="info@sogda-united.uz"
@@ -90,10 +90,10 @@ in Uzbekistan and neighboring countries."
 			</main>
 			<Footer
 				aboutText="About us"
-				employeesText="Employees"
+				employeesText="Team"
 				contactsText="Contacts"
-				mapText="We're on the map"
-				addressText="Republic of Uzbekistan, Samarkand, M. Haydarov str. 29"
+				mapText="Find Us Here"
+				addressText="M. Khaydarov st. 29, Samarkand, The Republic of Uzbekistan"
 				phoneNumber="+998981706000"
 				phoneLabel="+998 (98) 170 - 60 - 00"
 				email="info@example.com"
